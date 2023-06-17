@@ -29,3 +29,7 @@ const anggotaKeluargaArray = ["ayah", "Ibu", "Bima", "Dodi", "Valdi"];
 const [bapak, mama, ...anakAngkat] = anggotaKeluargaArray;
 console.log(anakAngkat);
 // output ["Bima", "Dodi", "Valdi"]
+
+// Kapan kita menggunakan rest operator?
+// rest operator dapat digunakan untuk parameter pada fungsi
+// rest operator dapat digunakan untuk destructuring objeck/array
